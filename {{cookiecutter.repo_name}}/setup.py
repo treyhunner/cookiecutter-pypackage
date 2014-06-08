@@ -12,7 +12,7 @@ except ImportError:
 
 
 readme = open('README.rst').read()
-history = open('HISTORY.rst').read().replace('.. :changelog:', '')
+history = open('CHANGES.rst').read()
 
 requirements = [
     # TODO: put package requirements here
