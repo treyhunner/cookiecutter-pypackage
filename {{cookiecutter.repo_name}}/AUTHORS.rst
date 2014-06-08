@@ -1,13 +1,6 @@
-=======
 Credits
 =======
 
-Development Lead
-----------------
+Authors and contributors to {{ cookiecutter.repo_name }} (listed alphabetically):
 
-* {{ cookiecutter.full_name }} <{{ cookiecutter.email }}>
-
-Contributors
-------------
-
-None yet. Why not be the first?
+- {{ cookiecutter.full_name }} <{{ cookiecutter.email }}>
