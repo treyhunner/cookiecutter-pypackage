@@ -14,10 +14,12 @@
 
 {{ cookiecutter.project_short_description}}
 
-* Free software: BSD license
-* Documentation: https://{{ cookiecutter.repo_name }}.readthedocs.org.
+- Free software: BSD license
+- Documentation: https://{{ cookiecutter.repo_name }}.readthedocs.org.
+- Issue tracker:  https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/issues
+- Package available on `PyPI`_
 
-Features
---------
+Pull requests are welcome.  Read the CONTRIBUTING file for tips on submitting
+a pull request.
 
-* TODO
+.. _PyPI: https://pypi.python.org/pypi/{{ cookiecutter.repo_name }}/
