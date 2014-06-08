@@ -31,7 +31,10 @@ test:
 	python setup.py test
 
 test-all:
+	coverage erase
 	tox
+	coverage report
+	coverage html
 
 coverage:
 	coverage run --source {{ cookiecutter.repo_name }} setup.py test
