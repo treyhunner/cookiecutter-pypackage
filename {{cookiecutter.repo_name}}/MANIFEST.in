@@ -1,5 +1,10 @@
 include *.rst
+include .editorconfig
 include LICENSE
+include Makefile
+include requirements.txt
+include .travis.yml
+include tox.ini
 
 recursive-include tests *
 recursive-exclude * __pycache__
