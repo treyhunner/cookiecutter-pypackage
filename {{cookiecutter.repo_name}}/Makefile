@@ -33,11 +33,11 @@ test:
 test-all:
 	coverage erase
 	tox
-	coverage report
+	coverage report -m
 	coverage html
 
 coverage:
-	coverage run --source {{ cookiecutter.repo_name }} setup.py test
+	coverage run setup.py test
 	coverage report -m
 	coverage html
 	open htmlcov/index.html
